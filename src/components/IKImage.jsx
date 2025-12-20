@@ -7,9 +7,16 @@ const IKImage = ({src,className,w,h,alt})=>{
         src={src} 
         className={className}
         loading="lazy"
+        lqip={{active : true, quality : 20}}
         alt={alt}
         height= {h}
         width= {w}
+        transformation={[
+            {
+                width: w,
+                height: h
+            }
+        ]}
         ></Image>
     )
 }

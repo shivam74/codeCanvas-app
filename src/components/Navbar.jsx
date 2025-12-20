@@ -1,5 +1,5 @@
 import { useState } from "react"
-import IKImage from "./Image";
+import IKImage from "./IKImage";
 import { Link } from "react-router-dom";
 import { SignedIn, SignedOut, SignInButton, UserButton } from '@clerk/clerk-react';
 
