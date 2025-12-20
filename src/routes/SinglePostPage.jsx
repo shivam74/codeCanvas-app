@@ -2,6 +2,7 @@ import { Link } from "react-router-dom";
 import IKImage from "../components/IKImage";
 import PostMenuActions from "../components/PostMenuActions";
 import Search from "../components/Search";
+import Comments from "../components/Comments";
 
 const SinglePostPage = () => {
   return (
