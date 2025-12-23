@@ -21,7 +21,6 @@ if (!PUBLISHABLE_KEY) {
   throw new Error('Missing Publishable Key')
 }
 
-
 const router = createBrowserRouter([
   {
     element : <MainLayout/>,
