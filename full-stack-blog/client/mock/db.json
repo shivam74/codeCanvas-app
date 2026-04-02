@@ -1,0 +1,21 @@
+{
+  "posts": {
+    "posts": [
+      {
+        "_id": "1",
+        "title": "Sample Post 1",
+        "slug": "sample-post-1",
+        "user": { "username": "shivam" },
+        "img": "/sample1.jpg"
+      },
+      {
+        "_id": "2",
+        "title": "Sample Post 2",
+        "slug": "sample-post-2",
+        "user": { "username": "coder" },
+        "img": "/sample2.jpg"
+      }
+    ],
+    "hasMore": false
+  }
+}
